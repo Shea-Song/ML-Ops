@@ -58,10 +58,15 @@ git commit -v #diff 내용이 추가
 git checkout -- 수정파일이름
 ```
 
-### git push
+### git push(upload)
 
 ```
 git push #동기화 완료 직전에 권한 어떻게 줄 거냐고 물어봄
+```
+
+### git fetch (download)
+```
+git fetch
 ```
 
 ### git 여러 개 
@@ -83,4 +88,11 @@ git show 'commitID' # 특정 커밋의 상세 정보
 ```
 git diff # stage와 working directory 비교
 git diff head # 최신 커밋과 변경 내용 비교
+```
+
+### git remote
+
+```
+git remote add origin https://github.com/clastro/someproject.git #원격 저장소 추가
+git remote -v #원격 저장소 목록 확인
 ```
